@@ -226,7 +226,7 @@
     "titleBar.activeForeground": "#C6C7C6",
     "titleBar.inactiveBackground": "#181818",
     "titleBar.inactiveForeground": "#bbbbbb",
-    "titleBar.border": "#282828",
+    "titleBar.border": "#282828"
   },
   "tokenColors": [
     {
