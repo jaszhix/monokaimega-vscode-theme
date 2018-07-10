@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.3.3
+
+- Added support for the new editor pane styling in VSCode 1.25.0.
+
 ## 2.3.2
 
 - Added support for the new active indent guide styling.
