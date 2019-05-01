@@ -1,5 +1,11 @@
 # Change Log
 
+## 3.0.0
+
+- Improved contrast between UI elements.
+- Improved theming consistency with TypeScript, TypeScript React, Python, PHP, C, and Go.
+- Fixed issues with illegible text in the peek view editor, and not being able to see text highlights in diffs.
+
 ## 2.3.3
 
 - Added support for the new editor pane styling in VSCode 1.25.0.
