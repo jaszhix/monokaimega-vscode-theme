@@ -1,5 +1,14 @@
 # Change Log
 
+## 3.1.0
+
+- Made JS, TS, and TSX syntax styles more consistent.
+- Removed italic styling for variable keywords.
+- Minor adjustments to mimic Monokai Phoenix more closely.
+- Improved regexp colors.
+- Python: function and class declaration colons are green to help visually separate them.
+- Python: fixed key-value separator color.
+
 ## 3.0.0
 
 - Improved contrast between UI elements.

@@ -266,14 +266,14 @@
     },
     {
       "name": "String",
-      "scope": "string, meta.object-literal.key.js, string.unquoted.label.js constant.other.object.key.js",
+      "scope": "string, meta.object-literal.key, string.unquoted.label constant.other.object.key",
       "settings": {
         "foreground": "#E6DB74"
       }
     },
     {
       "name": "Key-value separator",
-      "scope": "punctuation.separator.key-value",
+      "scope": "punctuation.separator.key-value, punctuation.separator.dictionary.key-value, punctuation.separator.dict",
       "settings": {
         "fontStyle": "",
         "foreground": "#AE81FF"
@@ -316,14 +316,14 @@
     },
     {
       "name": "JSX: Tag, punctuation",
-      "scope": "entity.name.tag.js support.class.component.js, punctuation.accessor.js, punctuation.definition.string.template.begin.js, punctuation.definition.string.template.end.js, meta.class.js storage.modifier.js",
+      "scope": "entity.name.tag support.class.component, punctuation.accessor, punctuation.definition.string.template.begin, punctuation.definition.string.template.end, meta.class storage.modifier",
       "settings": {
         "foreground": "#F92672"
       }
     },
     {
-      "name": "JS: Super/Native",
-      "scope": "variable.language.super.js, support.variable.dom.js",
+      "name": "JS/TS: Super/Native",
+      "scope": "variable.language.super, support.variable.dom",
       "settings": {
         "fontStyle": "italic",
         "foreground": "#66D9EF"
@@ -331,35 +331,35 @@
     },
     {
       "name": "Variable",
-      "scope": "variable.language, variable.other.readwrite.js meta.group.braces.curly, variable.other.property.js, meta.group.braces.curly meta.function.js entity.name.function.js, meta.group.braces.curly support.constant.dom.js, meta.function-call.with-arguments.js entity.name.function.js, meta.function-call.js entity.name.function.js, support.variable.property.dom.js, support.variable.property.js, meta.group.braces.curly.js meta.function-call.method.with-arguments.js variable.function.js, meta.class.js meta.group.braces.curly.js meta.function-call variable.function.js, meta.property.object.js, meta.group.braces.curly.js meta.group.braces.round.js variable.other.readwrite.js",
+      "scope": "variable.language, variable.other.readwrite meta.group.braces.curly, variable.other.property, meta.group.braces.curly meta.function entity.name.function, meta.group.braces.curly support.constant.dom, meta.function-call.with-arguments entity.name.function, meta.function-call entity.name.function, support.variable.property.dom, support.variable.property, meta.group.braces.curly meta.function-call.method.with-arguments variable.function, meta.class meta.group.braces.curly meta.function-call variable.function, meta.property.object, meta.group.braces.curly meta.group.braces.round variable.other.readwrite",
       "settings": {
         "foreground": "#FFFFFF"
       }
     },
     {
       "name": "Variable/Native",
-      "scope": "variable.other.class.js, meta.function-call.static.with-arguments.js variable.other.class.js, meta.parameter.optional.js meta.group.braces.curly.js meta.brace.curly.begin.js, meta.parameter.optional.js meta.group.braces.curly.js meta.brace.curly.end.js",
+      "scope": "variable.other.class, meta.function-call.static.with-arguments variable.other.class, meta.parameter.optional meta.group.braces.curly meta.brace.curly.begin, meta.parameter.optional meta.group.braces.curly meta.brace.curly.end",
       "settings": {
         "foreground": "#FFFFFF"
       }
     },
     {
       "name": "Class function",
-      "scope": "meta.function-call.static variable.other.class.js, meta.class.js entity.name.type.module.js, meta.class.js entity.name.type.class.js, met meta.class.js meta.function-call variable.function.js",
+      "scope": "meta.function-call.static variable.other.class, meta.class entity.name.type.module, meta.class entity.name.type.class, met meta.class meta.function-call variable.function",
       "settings": {
         "foreground": "#A6E22E"
       }
     },
     {
       "name": "Class variable",
-      "scope": "meta.property.class variable.other.class.js",
+      "scope": "meta.property.class variable.other.class",
       "settings": {
         "foreground": "#A6E22E"
       }
     },
     {
       "name": "Function arg/Arrow",
-      "scope": "meta.function.method.js variable.other.readwrite.js, meta.function.arrow.js variable.other.readwrite.js, meta.class.js meta.group.braces.round.js variable.other.readwrite.js",
+      "scope": "meta.function.method variable.other.readwrite, meta.function.arrow variable.other.readwrite, meta.class meta.group.braces.round variable.other.readwrite",
       "settings": {
         "foreground": "#FD971F"
       }
@@ -389,9 +389,10 @@
     },
     {
       "name": "Support",
-      "scope": "support",
+      "scope": "support, support.variable.property.process",
       "settings": {
-        "foreground": "#8A5C8DFF"
+        "fontStyle": "italic",
+        "foreground": "#66D9EF"
       }
     },
     {
@@ -433,15 +434,15 @@
       }
     },
     {
-      "name": "entity.arrow.function.js",
-      "scope": "entity.arrow.function.js",
+      "name": "entity.arrow.function",
+      "scope": "entity.arrow.function",
       "settings": {
         "foreground": "#AA00FF"
       }
     },
     {
-      "name": "entity.name.accessor.js",
-      "scope": "entity.name.accessor.js",
+      "name": "entity.name.accessor",
+      "scope": "entity.name.accessor",
       "settings": {
         "foreground": "#A6E22E"
       }
@@ -455,15 +456,15 @@
       }
     },
     {
-      "name": "entity.name.method.js",
-      "scope": "entity.name.method.js",
+      "name": "entity.name.method",
+      "scope": "entity.name.method",
       "settings": {
         "foreground": "#A6E22E"
       }
     },
     {
-      "name": "meta.method.js",
-      "scope": "meta.method.js",
+      "name": "meta.method",
+      "scope": "meta.method",
       "settings": {
         "foreground": "#FFF"
       }
@@ -488,8 +489,15 @@
       "name": "Library constant",
       "scope": "support.constant",
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "italic",
         "foreground": "#66D9EF"
+      }
+    },
+    {
+      "name": "Library constant",
+      "scope": "support.function.json",
+      "settings": {
+        "foreground": "#FFFFFF"
       }
     },
     {
@@ -509,28 +517,21 @@
     },
     {
       "name": "js undefined",
-      "scope": "constant.language.undefined.js",
+      "scope": "constant.language.undefined",
       "settings": {
         "foreground": "#AE81FF"
       }
     },
     {
-      "name": "support.class.error.js",
-      "scope": "support.class.error.js",
+      "name": "support.class.error",
+      "scope": "support.class.error",
       "settings": {
         "foreground": "#FF5522"
       }
     },
     {
-      "name": "support.class.node.js",
-      "scope": "support.class.node.js",
-      "settings": {
-        "foreground": "#b7cdfd"
-      }
-    },
-    {
-      "name": "support.keyword.node.js",
-      "scope": "support.keyword.node.js",
+      "name": "support.keyword.node",
+      "scope": "support.keyword.node",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#F92672"
@@ -555,7 +556,70 @@
       "name": "String.regexp",
       "scope": "string.regexp",
       "settings": {
+        "foreground": "#E6DB74"
+      }
+    },
+    {
+      "name": "String.regexp: begin/end",
+      "scope": "string.regexp punctuation.definition.string.begin, string.regexp punctuation.definition.string.end",
+      "settings": {
         "foreground": "#f6aa11"
+      }
+    },
+    {
+      "name": "String.regexp: group",
+      "scope": "meta.group.regexp punctuation.definition.group.regexp",
+      "settings": {
+        "foreground": "#d3c8b2"
+      }
+    },
+    {
+      "name": "String.regexp: group depth 2",
+      "scope": "meta.group.regexp meta.group.regexp punctuation.definition.group.regexp",
+      "settings": {
+        "foreground": "#d4b576"
+      }
+    },
+    {
+      "name": "String.regexp: group depth 3",
+      "scope": "meta.group.regexp meta.group.regexp meta.group.regexp punctuation.definition.group.regexp",
+      "settings": {
+        "foreground": "#cfa54f"
+      }
+    },
+    {
+      "name": "String.regexp: group depth 4",
+      "scope": "meta.group.regexp meta.group.regexp meta.group.regexp meta.group.regexp punctuation.definition.group.regexp",
+      "settings": {
+        "foreground": "#dd9300"
+      }
+    },
+    {
+      "name": "String.regexp: character class set",
+      "scope": "constant.other.character-class.set.regexp, constant.other.character-class.set.regexp constant.other.character-class.regexp",
+      "settings": {
+        "foreground": "#E6DB74"
+      }
+    },
+    {
+      "name": "String.regexp: character class set - punctuation",
+      "scope": "punctuation.definition.character-class.regexp",
+      "settings": {
+        "foreground": "#f7cd7b"
+      }
+    },
+    {
+      "name": "String.regexp: character class set - range",
+      "scope": "constant.other.character-class.range.regexp",
+      "settings": {
+        "foreground": "#E6DB74"
+      }
+    },
+    {
+      "name": "quantifier.regexp",
+      "scope": "keyword.operator.quantifier.regexp",
+      "settings": {
+        "foreground": "#ff93bb"
       }
     },
     {
@@ -574,7 +638,7 @@
     },
     {
       "name": "Entity",
-      "scope": "punctuation.quasi.element.begin.js, punctuation.quasi.element.end.js, punctuation.definition.quasi.begin.js, punctuation.definition.quasi.end.js",
+      "scope": "punctuation.quasi.element.begin, punctuation.quasi.element.end, punctuation.definition.quasi.begin, punctuation.definition.quasi.end",
       "settings": {
         "fontStyle": "",
         "foreground": "#F92672"
@@ -582,7 +646,7 @@
     },
     {
       "name": "Entity",
-      "scope": "entity.name.type.new.js",
+      "scope": "entity.name.type.new",
       "settings": {
         "fontStyle": "",
         "foreground": "#FFFFFF"
@@ -612,7 +676,7 @@
     },
     {
       "name": "HTML: Attribute punctuation",
-      "scope": "text.html.basic meta.tag.other.html, text.html.basic meta.tag.any.html, text.html.basic meta.tag.block.any, text.html.basic meta.tag.inline.any, text.html.basic meta.tag.structure.any.html,  text.html.basic source.js.embedded.html, punctuation.separator.key-value.html",
+      "scope": "text.html.basic meta.tag.other.html, text.html.basic meta.tag.any.html, text.html.basic meta.tag.block.any, text.html.basic meta.tag.inline.any, text.html.basic meta.tag.structure.any.html,  text.html.basic source.embedded.html, punctuation.separator.key-value.html",
       "settings": {
         "fontStyle": "",
         "foreground": "#A6E22E"
@@ -743,32 +807,24 @@
       }
     },
     {
-      "name": "JS: Instance constructor",
-      "scope": "meta.instance.constructor meta.function-call.constructor.js",
+      "name": "JS/TS: Instance constructor",
+      "scope": "meta.instance.constructor meta.function-call.constructor",
       "settings": {
         "fontStyle": "",
         "foreground": "#A6E22E"
       }
     },
     {
-      "name": "JS: es6 template delimiters ${}",
-      "scope": "meta.template.expression.js punctuation.definition.template-expression.begin.js, meta.template.expression.js punctuation.definition.template-expression.end.js, meta.template.expression.js punctuation.accessor",
+      "name": "JS/TS: es6 template delimiters ${}",
+      "scope": "meta.template.expression punctuation.definition.template-expression.begin, meta.template.expression punctuation.definition.template-expression.end, meta.template.expression punctuation.accessor",
       "settings": {
         "fontStyle": "",
         "foreground": "#F92672"
       }
     },
     {
-      "name": "JS: Function Name",
-      "scope": "meta.function.js, support.function.dom.js",
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#FFFFFF"
-      }
-    },
-    {
-      "name": "JS: Function Name",
-      "scope": "meta.function-call meta.group.braces.curly meta.class.body.js",
+      "name": "JS/TS: Function Name",
+      "scope": "meta.function-call meta.group.braces.curly meta.class.body, meta.function, support.function.dom",
       "settings": {
         "fontStyle": "",
         "foreground": "#FFFFFF"
@@ -776,61 +832,37 @@
     },
     {
       "name": "Variable/Function call",
-      "scope": "meta.function-call.static entity.name.function.js, meta.group.braces.curly meta.function-call.with-arguments.js entity.name.function.js",
+      "scope": "meta.function-call.static entity.name.function, meta.group.braces.curly meta.function-call.with-arguments entity.name.function",
       "settings": {
         "foreground": "#FFFFFF"
       }
     },
     {
-      "name": "JS: Function Name",
-      "scope": "meta.group.braces.round meta.group.braces.curly meta.group.braces.curly meta.function-call entity.name.function.js",
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#FFFFFF"
-      }
-    },
-    {
-      "name": "JS: Function Name",
-      "scope": "meta.class.body.js meta.function-call entity.name.function.js",
+      "name": "JS/TS: Function Name",
+      "scope": "meta.group.braces.round meta.group.braces.curly meta.group.braces.curly meta.function-call entity.name.function",
       "settings": {
         "fontStyle": "",
         "foreground": "#FFFFFF"
       }
     },
     {
-      "name": "JS: Function Name",
-      "scope": "meta.class.body.js meta.function-call entity.name.function.js",
+      "name": "JS/TS: Function Name",
+      "scope": "meta.class.body meta.function-call entity.name.function, meta.function-call.method entity.name.function",
       "settings": {
         "fontStyle": "",
         "foreground": "#FFFFFF"
       }
     },
     {
-      "name": "JS: Function Name",
-      "scope": "meta.group.braces.round meta.group.braces.curly meta.function.json.js variable.other.readwrite.js",
+      "name": "JS/TS: Function Name",
+      "scope": "meta.group.braces.round meta.group.braces.curly meta.function.json variable.other.readwrite, meta.group.braces.curly meta.function.json variable.other.readwrite",
       "settings": {
         "fontStyle": "",
         "foreground": "#FD971F"
       }
     },
     {
-      "name": "JS: Function Name",
-      "scope": "meta.function-call.method entity.name.function.js",
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#FFFFFF"
-      }
-    },
-    {
-      "name": "JS: Function Name",
-      "scope": "meta.group.braces.curly meta.function.json variable.other.readwrite.js",
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#FD971F"
-      }
-    },
-    {
-      "name": "JS: Function Name",
+      "name": "JS/TS: Function Name",
       "scope": "meta.function.json, entity.name.function",
       "settings": {
         "fontStyle": "",
@@ -838,163 +870,180 @@
       }
     },
     {
-      "name": "entity.name.class.js",
-      "scope": "entity.name.class.js",
+      "name": "entity.name.class",
+      "scope": "entity.name.class",
       "settings": {
         "fontStyle": "",
         "foreground": "#A6E22E"
       }
     },
     {
-      "name": "entity.name.extends.js",
-      "scope": "entity.name.extends.js",
+      "name": "entity.name.extends",
+      "scope": "entity.name.extends",
       "settings": {
         "fontStyle": "italic",
         "foreground": "#00FF99"
       }
     },
     {
-      "name": "JS: Function Name",
-      "scope": "support.function.console.js",
+      "name": "JS/TS: Function Name",
+      "scope": "support.function.console",
       "settings": {
         "fontStyle": "",
         "foreground": "#66D9EF"
       }
     },
     {
-      "name": "JS: Template Entity",
-      "scope": "entity.quasi.element.js",
+      "name": "JS/TS: Template Entity",
+      "scope": "entity.quasi.element",
       "settings": {
         "fontStyle": "",
         "foreground": "#FFFFFF"
       }
     },
     {
-      "name": "JS: Param commas",
-      "scope": "source.js meta.function.js punctuation.separator.parameter.function.js, punctuation.separator.parameter.function.js, meta.delimiter.comma.js",
+      "name": "JS/TS: Param commas",
+      "scope": "source meta.function punctuation.separator.parameter.function, punctuation.separator.parameter.function, meta.delimiter.comma",
       "settings": {
         "fontStyle": "",
         "foreground": "#FFFFFF"
       }
     },
     {
-      "name": "JS: Object dot notation",
-      "scope": "keyword.operator.accessor.js",
+      "name": "JS/TS: Object dot notation",
+      "scope": "keyword.operator.accessor",
       "settings": {
         "fontStyle": "",
         "foreground": "#F92672"
       }
     },
     {
-      "name": "JS: colons",
-      "scope": "source.js meta.group.braces.curly constant.other.object.key.js",
+      "name": "JS/TS: colons",
+      "scope": "source meta.group.braces.curly constant.other.object.key",
       "settings": {
         "fontStyle": "",
         "foreground": "#FFFFFF"
       }
     },
     {
-      "name": "JS: unquoted string",
-      "scope": "source.js meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+      "name": "JS/TS: unquoted string",
+      "scope": "source meta.group.braces.curly constant.other.object.key string.unquoted.label",
       "settings": {
         "fontStyle": "",
         "foreground": "#E6DB74"
       }
     },
     {
-      "name": "JS: receiver",
-      "scope": "support.type.object.module.js, source.js meta.function.declaration.js support.class.js",
+      "name": "JS/TS: receiver",
+      "scope": "support.type.object.module, source meta.function.declaration support.class",
       "settings": {
         "fontStyle": "",
         "foreground": "#66D9EF"
       }
     },
     {
-      "name": "JS: receiver property",
-      "scope": "support.type.object.module.js support.type.object.module.js",
+      "name": "JS/TS: receiver property",
+      "scope": "support.type.object.module support.type.object.module",
       "settings": {
         "fontStyle": "",
         "foreground": "#A6E22E"
       }
     },
     {
-      "name": "JS: Storage Type",
-      "scope": "storage.type.js",
+      "name": "JS/TS: Storage Type",
+      "scope": "storage.type, storage.type.function",
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "",
         "foreground": "#66D9EF"
       }
     },
     {
-      "name": "JS: Source",
-      "scope": "text.html.basic source.js.embedded.html",
+      "name": "JS/TS: Source",
+      "scope": "text.html.basic source.embedded.html",
       "settings": {
         "fontStyle": "",
         "foreground": "#FFFFFF"
       }
     },
     {
-      "name": "JS: Function",
-      "scope": "storage.type.function.js",
+      "name": "JS/TS: Literal language variable/Support",
+      "scope": "variable.language.arguments, variable.language.super, variable.language.this, variable.language.self, variable.language.proto, variable.language.constructor, variable.language.prototype",
       "settings": {
         "fontStyle": "italic",
         "foreground": "#66D9EF"
       }
     },
     {
-      "name": "JS: Numeric Constant",
-      "scope": "constant.numeric.js",
-      "settings": {
-        "foreground": "#e1d3fa"
-      }
-    },
-    {
-      "name": "JS: Literal language variable/Support",
-      "scope": "variable.language.arguments.js, variable.language.super.js, variable.language.this.js, variable.language.self.js, variable.language.proto.js, variable.language.constructor.js, variable.language.prototype.js",
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#66D9EF"
-      }
-    },
-    {
-      "name": "JS: []",
-      "scope": "meta.brace.square.js",
+      "name": "JS/TS: []",
+      "scope": "meta.brace.square",
       "settings": {
         "foreground": "#FFFFFF"
       }
     },
     {
-      "name": "JS: Function invocation",
-      "scope": "meta.brace.round, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.definition.group",
+      "name": "JS/TS: Function invocation",
+      "scope": "meta.brace.round, punctuation.definition.parameters.begin, punctuation.definition.parameters.end, punctuation.definition.group",
       "settings": {
         "foreground": "#FFFFFF"
       }
     },
     {
-      "name": "JS: object literal {}",
-      "scope": "meta.brace.curly.js, meta.object-literal.js",
+      "name": "JS/TS: object literal {}",
+      "scope": "meta.brace.curly, meta.object-literal",
       "settings": {
         "foreground": "#FFFFFF"
       }
     },
     {
-      "name": "JS: Class storage modifier",
-      "scope": "meta.class.js storage.modifier.js",
+      "name": "JS/TS: Class storage modifier",
+      "scope": "meta.class storage.modifier, meta.interface storage.modifier",
       "settings": {
-        "foreground": "#66D9EF"
+        "foreground": "#F92672"
       }
     },
     {
-      "name": "JS: Class name",
-      "scope": "meta.class.js entity.name.type.class.js",
+      "name": "JS/TS: Class name",
+      "scope": "meta.class entity.name.type.class, meta.interface entity.name.type.interface",
       "settings": {
         "fontStyle": "italic",
         "foreground": "#A6E22E"
       }
     },
     {
-      "name": "JS: Inherited class",
-      "scope": "meta.class.js entity.other.inherited-class.js",
+      "name": "JS/TS: Interface keyword ",
+      "scope": "meta.interface storage.type.interface",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#66D9EF"
+      }
+    },
+    {
+      "name": "JS/TS: Interface name",
+      "scope": "meta.interface entity.name.type.interface",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "JS/TS: Interface module",
+      "scope": "meta.interface entity.name.type.module",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "JS/TS: Interface inherited class",
+      "scope": "meta.interface entity.other.inherited-class",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "JS/TS: Inherited class",
+      "scope": "meta.class entity.other.inherited-class",
       "settings": {
         "foreground": "#FFFFFF"
       }
@@ -1008,8 +1057,8 @@
       }
     },
     {
-      "name": "JS: class constructor keyword",
-      "scope": "source.js meta.class.js meta.method.declaration.js storage.type.js",
+      "name": "JS/TS: class constructor keyword",
+      "scope": "source meta.class meta.method.declaration storage.type",
       "settings": {
         "fontStyle": "",
         "foreground": "#A6E22E"
@@ -1025,426 +1074,195 @@
     },
     {
       "name": "JS/TS: Switch case statement punctuation",
-      "scope": "punctuation.definition.section.case-statement.ts",
+      "scope": "punctuation.definition.section.case-statement",
       "settings": {
         "fontStyle": "",
         "foreground": "#F92672"
       }
     },
     {
-      "name": "JS: Storage type",
-      "scope": "meta.class.js meta.method.declaration.js meta.block.js meta.var.expr.js storage.type.js, meta.block.js meta.var.expr.js storage.type.js",
+      "name": "JS/TS: Storage type",
+      "scope": "meta.class meta.method.declaration meta.block meta.var.expr storage.type, meta.block meta.var.expr storage.type",
       "settings": {
         "fontStyle": "",
         "foreground": "#66D9EF"
       }
     },
     {
-      "name": "JS: property name key",
-      "scope": "meta.object-literal.key.js meta.array.literal.js variable.other.property.js",
+      "name": "JS/TS: property name key",
+      "scope": "meta.object-literal.key meta.array.literal variable.other.property",
       "settings": {
         "foreground": "#E6DB74"
       }
     },
     {
-      "name": "TS: Storage type",
-      "scope": "meta.class.ts meta.method.declaration.ts meta.block.ts meta.var.expr.ts storage.type.ts",
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#66D9EF"
-      }
-    },
-    {
-      "name": "TS: Class storage modifier",
-      "scope": "source.ts meta.class.ts storage.modifier.ts",
+      "name": "JS/TS: Field storage modifier",
+      "scope": "meta.class meta.field.declaration storage.modifier, meta.parameters storage.modifier",
       "settings": {
         "fontStyle": "",
         "foreground": "#F92672"
       }
     },
     {
-      "name": "TS: Class name",
-      "scope": "meta.class.ts entity.name.type.class.ts",
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#A6E22E"
-      }
-    },
-    {
-      "name": "TS: Class inherited",
-      "scope": "meta.class.ts entity.other.inherited-class.ts",
-      "settings": {
-        "foreground": "#FFFFFF"
-      }
-    },
-    {
-      "name": "TS: Field storage modifier",
-      "scope": "meta.class.ts meta.field.declaration.ts storage.modifier.ts, meta.parameters.ts storage.modifier.ts",
+      "name": "JS/TS: Operator type annotation",
+      "scope": "keyword.operator.optional",
       "settings": {
         "fontStyle": "",
         "foreground": "#F92672"
       }
     },
     {
-      "name": "TS: Operator type annotation",
-      "scope": "keyword.operator.optional.ts",
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#F92672"
-      }
-    },
-    {
-      "name": "TS: Annotation field definition",
-      "scope": "meta.interface.ts meta.field.declaration.ts meta.definition.property.ts variable.object.property.ts",
+      "name": "JS/TS: Annotation field definition",
+      "scope": "meta.interface meta.field.declaration meta.definition.property variable.object.property, meta.field.declaration meta.definition.property variable.object.property, meta.interface meta.field.declaration meta.definition.property variable.object.property",
       "settings": {
         "fontStyle": "",
         "foreground": "#fcb563"
       }
     },
     {
-      "name": "TS: method names",
-      "scope": "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.function-call.ts entity.name.function.ts",
-      "settings": {
-        "foreground": "#FFFFFF"
-      }
-    },
-    {
-      "name": "TS: Function call",
-      "scope": "meta.function-call.ts entity.name.function.ts",
+      "name": "JS/TS: Annotation field definition",
+      "scope": "meta.class meta.field.declaration meta.definition.property variable.object.property",
       "settings": {
         "fontStyle": "",
         "foreground": "#FFFFFF"
       }
     },
     {
-      "name": "TS: type parameters",
-      "scope": "punctuation.definition.typeparameters.begin.ts, punctuation.definition.typeparameters.end.ts",
+      "name": "JS/TS: method names",
+      "scope": "source meta.class meta.method.declaration meta.block meta.function-call entity.name.function",
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "JS/TS: Function call",
+      "scope": "meta.function-call entity.name.function",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "JS/TS: type parameters",
+      "scope": "punctuation.definition.typeparameters.begin, punctuation.definition.typeparameters.end",
       "settings": {
         "foreground": "#F92672"
       }
     },
     {
-      "name": "TS: type annotation",
-      "scope": "meta.type.annotation.ts entity.name.type.ts, meta.type.annotation.ts meta.type.parameters.ts, meta.type.annotation.ts entity.name.type.module.ts",
+      "name": "JS/TS: type annotation",
+      "scope": "meta.type.annotation entity.name.type, meta.type.annotation meta.type.parameters, meta.type.annotation entity.name.type.module",
       "settings": {
         "fontStyle": "italic",
         "foreground": "#d1f7ff"
       }
     },
     {
-      "name": "TS: Return type name",
-      "scope": "meta.return.type.ts entity.name.type.ts, meta.return.type.arrow.ts entity.name.type.ts",
+      "name": "TSX: type annotation",
+      "scope": "meta.type.parameters entity.name.type",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#d1f7ff"
+      }
+    },
+    {
+      "name": "JS/TS: Return type name",
+      "scope": "meta.return.type entity.name.type, meta.return.type.arrow entity.name.type",
       "settings": {
         "fontStyle": "italic",
         "foreground": "#ffe2ed"
       }
     },
     {
-      "name": "TS: Definition block",
-      "scope": "meta.type.annotation.ts meta.object.type.ts punctuation.definition.block.ts",
+      "name": "JS/TS: Definition block",
+      "scope": "meta.type.annotation meta.object.type punctuation.definition.block",
       "settings": {
         "foreground": "#ffffff"
       }
     },
     {
-      "name": "TS: dot notation",
-      "scope": "punctuation.accessor.ts",
+      "name": "JS/TS: dot notation",
+      "scope": "punctuation.accessor",
       "settings": {
         "foreground": "#F92672"
       }
     },
     {
-      "name": "TS: Support variable property",
-      "scope": "support.variable.property.ts",
+      "name": "JS/TS: Support variable property",
+      "scope": "support.variable.property",
       "settings": {
         "foreground": "#FFFFFF"
-      }
-    },
-    {
-      "name": "TS: es6 template delimiters ${}",
-      "scope": "meta.template.expression.ts punctuation.definition.template-expression.begin.ts, meta.template.expression.ts punctuation.definition.template-expression.end.ts, meta.template.expression.ts punctuation.accessor, string.template.ts punctuation.definition.string.template.begin.ts, string.template.ts punctuation.definition.string.template.end.ts",
-      "settings": {
-        "foreground": "#F92672"
       }
     },
     {
       "name": "JS/TS: new expression in template strings",
-      "scope": "meta.template.expression.js meta.embedded.line.js new.expr.js entity.name.type.js, meta.template.expression.ts meta.embedded.line.ts new.expr.ts entity.name.type.ts",
+      "scope": "meta.template.expression meta.embedded.line new.expr entity.name.type",
       "settings": {
         "foreground": "#FFFFFF"
       }
     },
     {
-      "name": "TS: Class name",
-      "scope": "meta.class.ts entity.name.type.class.ts",
-      "settings": {
-        "foreground": "#A6E22E"
-      }
-    },
-    {
-      "name": "TS: Punctuation decorator",
-      "scope": "meta.decorator.ts punctuation.decorator.ts",
+      "name": "JS/TS: Punctuation decorator",
+      "scope": "meta.decorator punctuation.decorator",
       "settings": {
         "fontStyle": "",
         "foreground": "#A6E22E"
       }
     },
     {
-      "name": "TS: Decorator function call",
-      "scope": "meta.decorator.ts meta.function-call.ts entity.name.function.ts",
+      "name": "JS/TS: Decorator function call",
+      "scope": "meta.decorator meta.function-call entity.name.function",
       "settings": {
         "fontStyle": "",
-        "foreground": "#c6d6a5"
+        "foreground": "#f1ffd4"
       }
     },
     {
-      "name": "TS: Decorator var",
-      "scope": "meta.decorator.ts variable.other.readwrite.ts",
+      "name": "JS/TS: Decorator var",
+      "scope": "meta.decorator variable.other.readwrite",
       "settings": {
         "fontStyle": "",
         "foreground": "#A6E22E"
       }
     },
     {
-      "name": "TS: Return keyword type annotation",
-      "scope": "meta.return.type.ts keyword.operator.type.annotation.ts",
+      "name": "JS/TS: Return keyword type annotation",
+      "scope": "meta.return.type keyword.operator.type.annotation",
       "settings": {
         "foreground": "#F92672"
       }
     },
     {
-      "name": "TS: Parameter keyword type annotation",
-      "scope": "meta.parameters.ts meta.type.annotation.ts keyword.operator.type.annotation.ts",
+      "name": "JS/TS: Parameter keyword type annotation",
+      "scope": "meta.parameters meta.type.annotation keyword.operator.type.annotation",
       "settings": {
         "foreground": "#AE81FF"
       }
     },
     {
-      "name": "TS: Field keyword type annotation",
-      "scope": "meta.field.declaration.ts meta.type.annotation.ts keyword.operator.type.annotation.ts",
+      "name": "JS/TS: Field keyword type annotation",
+      "scope": "meta.field.declaration meta.type.annotation keyword.operator.type.annotation",
       "settings": {
         "foreground": "#AE81FF"
       }
     },
     {
-      "name": "TS: Object member key",
-      "scope": "meta.object.member.ts meta.object-literal.key.ts",
+      "name": "JS/TS: Object member key",
+      "scope": "meta.object.member meta.object-literal.key",
       "settings": {
         "foreground": "#E6DB74"
       }
     },
     {
-      "name": "TS: Array",
-      "scope": "meta.object-literal.key.ts meta.array.literal.ts meta.brace.square.ts, meta.array.literal.ts variable.other.readwrite.ts",
+      "name": "JS/TS: Array",
+      "scope": "meta.object-literal.key meta.array.literal meta.brace.square, meta.array.literal variable.other.readwrite",
       "settings": {
         "foreground": "#FFFFFF"
       }
     },
     {
-      "name": "TS: Bracket notation",
-      "scope": "meta.embedded.line.ts meta.array.literal.ts meta.brace.square.ts",
-      "settings": {
-        "foreground": "#FFFFFF"
-      }
-    },
-    {
-      "name": "TSX: Storage type",
-      "scope": "meta.class.tsx meta.method.declaration.tsx meta.block.tsx meta.var.expr.tsx storage.type.tsx",
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#66D9EF"
-      }
-    },
-    {
-      "name": "TSX: Class storage modifier",
-      "scope": "source.tsx meta.class.tsx storage.modifier.tsx",
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#F92672"
-      }
-    },
-    {
-      "name": "TSX: Class name",
-      "scope": "meta.class.tsx entity.name.type.class.tsx",
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#A6E22E"
-      }
-    },
-    {
-      "name": "TSX: Class inherited",
-      "scope": "meta.class.tsx entity.other.inherited-class.tsx",
-      "settings": {
-        "foreground": "#FFFFFF"
-      }
-    },
-    {
-      "name": "TSX: Field storage modifier",
-      "scope": "meta.class.tsx meta.field.declaration.tsx storage.modifier.tsx, meta.parameters.tsx storage.modifier.tsx",
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#F92672"
-      }
-    },
-    {
-      "name": "TSX: Operator type annotation",
-      "scope": "keyword.operator.optional.tsx",
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#FD971F"
-      }
-    },
-    {
-      "name": "TSX: Annotation field definition",
-      "scope": "meta.field.declaration.tsx meta.definition.property.tsx variable.object.property.tsx",
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#fcb563"
-      }
-    },
-    {
-      "name": "TSX: method names",
-      "scope": "source.tsx meta.class.tsx meta.method.declaration.tsx meta.block.tsx meta.function-call.tsx entity.name.function.tsx",
-      "settings": {
-        "foreground": "#FFFFFF"
-      }
-    },
-    {
-      "name": "TSX: Function call",
-      "scope": "meta.function-call.tsx entity.name.function.tsx",
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#FFFFFF"
-      }
-    },
-    {
-      "name": "TSX: type parameters",
-      "scope": "punctuation.definition.typeparameters.begin.tsx, punctuation.definition.typeparameters.end.tsx",
-      "settings": {
-        "foreground": "#F92672"
-      }
-    },
-    {
-      "name": "TSX: type annotation",
-      "scope": "meta.type.annotation.tsx entity.name.type.tsx, meta.type.annotation.tsx meta.type.parameters.tsx, meta.type.annotation.tsx entity.name.type.module.tsx",
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#d1f7ff"
-      }
-    },
-    {
-      "name": "TSX: type annotation",
-      "scope": "meta.type.parameters.tsx entity.name.type.tsx",
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#d1f7ff"
-      }
-    },
-    {
-      "name": "TSX: Return type name",
-      "scope": "meta.return.type.tsx entity.name.type.tsx",
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#ffe2ed"
-      }
-    },
-    {
-      "name": "TSX: Definition block",
-      "scope": "meta.type.annotation.tsx meta.object.type.tsx punctuation.definition.block.tsx",
-      "settings": {
-        "foreground": "#ffffff"
-      }
-    },
-    {
-      "name": "TSX: dot notation",
-      "scope": "punctuation.accessor.tsx",
-      "settings": {
-        "foreground": "#F92672"
-      }
-    },
-    {
-      "name": "TSX: Support variable property",
-      "scope": "support.variable.property.tsx",
-      "settings": {
-        "foreground": "#FFFFFF"
-      }
-    },
-    {
-      "name": "TSX: es6 template delimiters ${}",
-      "scope": "meta.template.expression.tsx punctuation.definition.template-expression.begin.tsx, meta.template.expression.tsx punctuation.definition.template-expression.end.tsx, meta.template.expression.tsx punctuation.accessor, string.template.tsx punctuation.definition.string.template.begin.tsx, string.template.tsx punctuation.definition.string.template.end.tsx",
-      "settings": {
-        "foreground": "#F92672"
-      }
-    },
-    {
-      "name": "TSX: Class name",
-      "scope": "meta.class.tsx entity.name.type.class.tsx",
-      "settings": {
-        "foreground": "#A6E22E"
-      }
-    },
-    {
-      "name": "TSX: Punctuation decorator",
-      "scope": "meta.decorator.tsx punctuation.decorator.tsx",
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#A6E22E"
-      }
-    },
-    {
-      "name": "TSX: Decorator function call",
-      "scope": "meta.decorator.tsx meta.function-call.tsx entity.name.function.tsx",
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#c6d6a5"
-      }
-    },
-    {
-      "name": "TSX: Decorator var",
-      "scope": "meta.decorator.tsx variable.other.readwrite.tsx",
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#A6E22E"
-      }
-    },
-    {
-      "name": "TSX: Return keyword type annotation",
-      "scope": "meta.return.type.tsx keyword.operator.type.annotation.tsx",
-      "settings": {
-        "foreground": "#F92672"
-      }
-    },
-    {
-      "name": "TSX: Parameter keyword type annotation",
-      "scope": "meta.parameters.tsx meta.type.annotation.tsx keyword.operator.type.annotation.tsx",
-      "settings": {
-        "foreground": "#AE81FF"
-      }
-    },
-    {
-      "name": "TSX: Field keyword type annotation",
-      "scope": "meta.field.declaration.tsx meta.type.annotation.tsx keyword.operator.type.annotation.tsx",
-      "settings": {
-        "foreground": "#AE81FF"
-      }
-    },
-    {
-      "name": "TSX: Object member key",
-      "scope": "meta.object.member.tsx meta.object-literal.key.tsx",
-      "settings": {
-        "foreground": "#E6DB74"
-      }
-    },
-    {
-      "name": "TSX: Support component (don't special case, makes no sense)",
-      "scope": "entity.name.tag.tsx support.class.component.tsx",
-      "settings": {
-        "foreground": "#F92672"
-      }
-    },
-    {
-      "name": "TSX: Array key",
-      "scope": "meta.object-literal.key.tsx meta.array.literal.tsx meta.brace.square.tsx",
+      "name": "JS/TS: Bracket notation",
+      "scope": "meta.embedded.line meta.array.literal meta.brace.square",
       "settings": {
         "foreground": "#FFFFFF"
       }
@@ -1454,13 +1272,6 @@
       "scope": "meta.structure.dictionary.json, meta.structure.dictionary.json support.type.property-name.json, string.quoted.double.json",
       "settings": {
         "foreground": "#cfcfc2"
-      }
-    },
-    {
-      "name": "JSON Key-value separator",
-      "scope": "punctuation.separator.dictionary.key-value.json",
-      "settings": {
-        "foreground": "#AE81FF"
       }
     },
     {
@@ -1807,6 +1618,14 @@
       "scope": "meta.class.python entity.name.type.class.python",
       "settings": {
         "fontStyle": "italic",
+        "foreground": "#A6E22E"
+      }
+    },
+    {
+      "name": "Python: Class/Function colon",
+      "scope": "punctuation.section.function.begin.python, punctuation.section.class.begin.python",
+      "settings": {
+        "fontStyle": "",
         "foreground": "#A6E22E"
       }
     },
