@@ -2,7 +2,7 @@
   "name": "theme-monokaiMega",
   "displayName": "Monokai Mega",
   "description": "A theme based on Monokai Phoenix from the Sublime Babel package.",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "publisher": "jaszhix",
   "engines": {
     "vscode": "^1.19.0"
