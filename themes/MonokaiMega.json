@@ -1196,7 +1196,7 @@
     },
     {
       "name": "JS/TS: new expression in template strings",
-      "scope": "meta.template.expression meta.embedded.line new.expr entity.name.type",
+      "scope": "meta.template.expression meta.embedded.line",
       "settings": {
         "foreground": "#FFFFFF"
       }
