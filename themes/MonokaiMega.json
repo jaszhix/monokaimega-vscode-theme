@@ -653,6 +653,13 @@
       }
     },
     {
+      "name": "Double-colon",
+      "scope": "punctuation.separator.coloncolon.cs, punctuation.separator.namespace.access.cpp, support.class.php",
+      "settings": {
+        "foreground": "#c8cecc"
+      }
+    },
+    {
       "name": "HTML: Doctype/XML Processing",
       "scope": "meta.tag.sgml.doctype.xml, declaration.sgml.html declaration.doctype, declaration.sgml.html declaration.doctype entity, declaration.sgml.html declaration.doctype string,  declaration.xml-processing, declaration.xml-processing entity, declaration.xml-processing string, doctype",
       "settings": {
@@ -1339,14 +1346,6 @@
       }
     },
     {
-      "name": "PHP: ::",
-      "scope": "support.class.php",
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#FFFFFF"
-      }
-    },
-    {
       "name": "PHP: Other Property",
       "scope": "variable.other.property.php",
       "settings": {
@@ -1792,17 +1791,67 @@
       }
     },
     {
-      "name": "C: Dot notation",
-      "scope": "punctuation.separator.dot-access.c",
+      "name": "C/C++: Dot notation",
+      "scope": "punctuation.separator.dot-access",
       "settings": {
         "foreground": "#F92672"
       }
     },
     {
-      "name": "C: Pointer access",
-      "scope": "punctuation.separator.pointer-access.c",
+      "name": "C/C++: storage type modifier access control",
+      "scope": "storage.type.modifier.access.control, punctuation.definition.directive",
+      "settings": {
+        "foreground": "#F92672"
+      }
+    },
+    {
+      "name": "C++: class name",
+      "scope": "entity.name.type.class.cpp",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#A6E22E"
+      }
+    },
+    {
+      "name": "C++: class name",
+      "scope": "meta.head.class.cpp colon.cpp",
+      "settings": {
+        "foreground": "#A6E22E"
+      }
+    },
+    {
+      "name": "C/C++: Pointer access",
+      "scope": "punctuation.separator.pointer-access",
       "settings": {
         "foreground": "#c8cecc"
+      }
+    },
+    {
+      "name": "C/C++: Type annotation",
+      "scope": "storage.type.user-defined",
+      "settings": {
+        "foreground": "#d1f7ff"
+      }
+    },
+    {
+      "name": "C/C++: namespace",
+      "scope": "entity.name.type.namespace.scope-resolution.cpp, meta.block.cpp, variable.other.object.access.cpp, entity.name.function.member.cpp, punctuation.section.parameters, punctuation.separator.delimiter.c, meta.preprocessor.macro, punctuation.section.parens.begin.bracket.round, punctuation.section.parens.end.bracket.round",
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "C/C++: support",
+      "scope": "keyword.operator.sizeof",
+      "settings": {
+        "foreground": "#66D9EF"
+      }
+    },
+    {
+      "name": "C/C++: Keyword hexadecimal",
+      "scope": "keyword.other.unit.hexadecimal",
+      "settings": {
+        "foreground": "#BE84FF"
       }
     },
     {
@@ -1810,6 +1859,71 @@
       "scope": "punctuation.other.period.go",
       "settings": {
         "foreground": "#F92672"
+      }
+    },
+    {
+      "name": "C#: support",
+      "scope": "keyword.type.cs, keyword.other.class.cs, keyword.operator.arrow.cs, keyword.other.var.cs, keyword.other.namespace.cs, keyword.operator.cast",
+      "settings": {
+        "foreground": "#66D9EF"
+      }
+    },
+    {
+      "name": "C#: base",
+      "scope": "keyword.other.base.cs",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#66D9EF"
+      }
+    },
+    {
+      "name": "C#: class name",
+      "scope": "entity.name.type.class.cs",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#A6E22E"
+      }
+    },
+    {
+      "name": "C#: function names extended",
+      "scope": "keyword.other.get.cs, keyword.other.set.cs",
+      "settings": {
+        "foreground": "#A6E22E"
+      }
+    },
+    {
+      "name": "C#: args",
+      "scope": "entity.name.variable.parameter.cs",
+      "settings": {
+        "foreground": "#FD971F"
+      }
+    },
+    {
+      "name": "C#: attribute specifier",
+      "scope": "keyword.other.attribute-specifier.cs",
+      "settings": {
+        "foreground": "#fcb563"
+      }
+    },
+    {
+      "name": "C#: colon",
+      "scope": "punctuation.separator.colon.cs",
+      "settings": {
+        "foreground": "#AE81FF"
+      }
+    },
+    {
+      "name": "C#: storage type",
+      "scope": "storage.type.cs, entity.name.type.type-parameter.cs",
+      "settings": {
+        "foreground": "#d1f7ff"
+      }
+    },
+    {
+      "name": "C#: false-positive colon punctuation workaround",
+      "scope": "entity.name.variable.tuple-element.cs punctuation.separator.colon.cs",
+      "settings": {
+        "foreground": "#FFFFFF"
       }
     },
     {
