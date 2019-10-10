@@ -1927,6 +1927,20 @@
       }
     },
     {
+      "name": "C#: string interpolation parenthesis",
+      "scope": "meta.interpolation.cs punctuation.parenthesis",
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "C#: string interpolation brackets",
+      "scope": "punctuation.definition.interpolation.begin, punctuation.definition.interpolation.end, punctuation.separator.hash",
+      "settings": {
+        "foreground": "#F92672"
+      }
+    },
+    {
       "name": "Markdown: plain",
       "scope": "text.html.markdown",
       "settings": {
