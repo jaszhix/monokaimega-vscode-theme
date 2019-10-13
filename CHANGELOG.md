@@ -1,5 +1,25 @@
 # Change Log
 
+## 3.2.2
+
+- JS/TS: Use #66D9EF for the async keyword to stay consistent with Monokai Phoenix.
+
+## 3.2.1
+
+- C#: Fixed incorrect colors of template string expression formatting.
+
+## 3.2.0
+
+- Made the syntax coloring for C#, C, and C++ more consistent with other languages.
+
+## 3.1.1
+
+- JS/TS: Fixed an issue with template string expression formatting.
+
+## 3.1.1
+
+- JS/TS: Fixed incorrect colors of template string expression formatting.
+
 ## 3.1.0
 
 - Made JS, TS, and TSX syntax styles more consistent.
