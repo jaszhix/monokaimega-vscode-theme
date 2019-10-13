@@ -1089,7 +1089,7 @@
     },
     {
       "name": "JS/TS: Storage type",
-      "scope": "meta.class meta.method.declaration meta.block meta.var.expr storage.type, meta.block meta.var.expr storage.type",
+      "scope": "meta.class meta.method.declaration meta.block meta.var.expr storage.type, meta.block meta.var.expr storage.type, storage.modifier.async",
       "settings": {
         "fontStyle": "",
         "foreground": "#66D9EF"
