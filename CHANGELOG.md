@@ -14,10 +14,6 @@
 
 ## 3.1.1
 
-- JS/TS: Fixed an issue with template string expression formatting.
-
-## 3.1.1
-
 - JS/TS: Fixed incorrect colors of template string expression formatting.
 
 ## 3.1.0
