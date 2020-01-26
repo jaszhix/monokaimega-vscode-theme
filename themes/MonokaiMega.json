@@ -1119,11 +1119,27 @@
       }
     },
     {
-      "name": "JS/TS: Annotation field definition",
+      "name": "TS: Annotation field definition",
       "scope": "meta.interface meta.field.declaration meta.definition.property variable.object.property, meta.field.declaration meta.definition.property variable.object.property, meta.interface meta.field.declaration meta.definition.property variable.object.property",
       "settings": {
         "fontStyle": "",
         "foreground": "#fcb563"
+      }
+    },
+    {
+      "name": "TS: Annotation field definition - quoted",
+      "scope": "meta.interface meta.field.declaration string.quoted",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#fcb563"
+      }
+    },
+    {
+      "name": "TS: Annotation field definition - string",
+      "scope": "meta.interface meta.field.declaration meta.type.annotation string.quoted",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#e6db74"
       }
     },
     {
@@ -1143,7 +1159,7 @@
     },
     {
       "name": "JS/TS: Function call",
-      "scope": "meta.function-call entity.name.function",
+      "scope": "meta.function-call entity.name.function, new.expr entity.name.type",
       "settings": {
         "fontStyle": "",
         "foreground": "#FFFFFF"
@@ -1151,30 +1167,45 @@
     },
     {
       "name": "JS/TS: type parameters",
-      "scope": "punctuation.definition.typeparameters.begin, punctuation.definition.typeparameters.end",
+      "scope": "punctuation.definition.typeparameters.begin, punctuation.definition.typeparameters.end, cast.expr meta.brace.angle",
       "settings": {
         "foreground": "#F92672"
       }
     },
     {
-      "name": "JS/TS: type annotation",
-      "scope": "meta.type.annotation entity.name.type, meta.type.annotation meta.type.parameters, meta.type.annotation entity.name.type.module",
+      "name": "TS: type annotation",
+      "scope": "entity.name.type, meta.type.annotation entity.name.type, meta.type.annotation meta.type.parameters, meta.type.annotation entity.name.type.module",
       "settings": {
         "fontStyle": "italic",
         "foreground": "#d1f7ff"
       }
     },
     {
-      "name": "TSX: type annotation",
-      "scope": "meta.type.parameters entity.name.type",
+      "name": "TS: type annotation",
+      "scope": "meta.type.parameters entity.name.type, meta.type.parameters entity.name.type.module, cast.expr entity.name.type, cast.expr entity.name.type.module, meta.var.expr cast.expr entity.name.type.module",
       "settings": {
         "fontStyle": "italic",
         "foreground": "#d1f7ff"
+      }
+    },
+    {
+      "name": "TS: type parameter separator",
+      "scope": "meta.type.parameters punctuation.separator.comma",
+      "settings": {
+        "foreground": "#f8f8f8"
       }
     },
     {
       "name": "JS/TS: Return type name",
       "scope": "meta.return.type entity.name.type, meta.return.type.arrow entity.name.type",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ffe2ed"
+      }
+    },
+    {
+      "name": "TS: Return type name inside parameters",
+      "scope": "meta.return.type.arrow meta.type.parameters entity.name.type.module, meta.return.type meta.type.parameters entity.name.type, meta.return.type meta.type.parameters entity.name.type.module",
       "settings": {
         "fontStyle": "italic",
         "foreground": "#ffe2ed"

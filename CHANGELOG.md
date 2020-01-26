@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.2.3
+
+- TS: Fixed cast expressions and module namespaces within type parameters not being themed correctly.
+
 ## 3.2.2
 
 - JS/TS: Use #66D9EF for the async keyword to stay consistent with Monokai Phoenix.
