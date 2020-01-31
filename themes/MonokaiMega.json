@@ -1197,7 +1197,7 @@
     },
     {
       "name": "JS/TS: Return type name",
-      "scope": "meta.return.type entity.name.type, meta.return.type.arrow entity.name.type",
+      "scope": "meta.return.type entity.name.type, meta.return.type.arrow entity.name.type, meta.return.type entity.name.type.module",
       "settings": {
         "fontStyle": "italic",
         "foreground": "#ffe2ed"
