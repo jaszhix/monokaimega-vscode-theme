@@ -36,6 +36,8 @@
     "activityBar.border": "#242424",
     "activityBar.foreground": "#C6C7C6",
     "activityBar.dropBackground": "#1d1d1d80",
+    "activityBar.activeBackground": "#191919",
+    "activityBar.activeBorder": "#9b9b9b",
     "badge.background": "#434343",
     "badge.foreground": "#DCDCDB",
     "button.background": "#313131",
@@ -254,7 +256,7 @@
     "titleBar.activeForeground": "#C6C7C6",
     "titleBar.inactiveBackground": "#181818",
     "titleBar.inactiveForeground": "#bbbbbb",
-    "titleBar.border": "#212121",
+    "titleBar.border": "#212121"
   },
   "tokenColors": [
     {

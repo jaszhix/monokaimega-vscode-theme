@@ -1,5 +1,10 @@
 # Change Log
 
+## 3.2.4
+
+- TS: Fixed some types being uncolored on return lines.
+- Updated activity bar colors for VS Code 1.40+.
+
 ## 3.2.3
 
 - TS: Fixed cast expressions and module namespaces within type parameters not being themed correctly.
