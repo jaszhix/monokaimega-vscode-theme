@@ -1,5 +1,30 @@
 # Change Log
 
+## 4.0.0
+
+- Updated theme support for these languages to improve readability and consistency:
+  - YAML
+  - JSON
+  - JSDoc
+  - HTML
+  - TypeScript
+  - JavaScript
+- Added theme support for these languages:
+  - INI
+  - PIP Requirements
+  - PowerShell
+  - Shell
+- Added theme support for several syntax highlighting extensions:
+  - [Dart](https://marketplace.visualstudio.com/items?itemName=oscarcs.dart-syntax-highlighting-only#review-details)
+  - [Django Template](https://marketplace.visualstudio.com/items?itemName=bibhasdn.django-html#review-details)
+  - [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv#review-details)
+  - [nginx.conf hint](https://marketplace.visualstudio.com/items?itemName=hangxingliu.vscode-nginx-conf-hint#review-details)
+  - [REG](https://marketplace.visualstudio.com/items?itemName=ionutvmi.reg#review-details)
+  - [Syntax Highlighting for yarn.lock files](https://marketplace.visualstudio.com/items?itemName=mariusschulz.yarn-lock-syntax#review-details)
+  - [UserScript](https://marketplace.visualstudio.com/items?itemName=adpyke.vscode-userscript#review-details)
+
+These changes are subjective and may change in the future, feel free to open an issue on the theme's Github repo if you have feedback.
+
 ## 3.2.4
 
 - TS: Fixed some types being uncolored on return lines.
