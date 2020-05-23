@@ -407,8 +407,16 @@
     },
     {
       "name": "Class function",
-      "scope": "meta.function-call.static variable.other.class, meta.class entity.name.type.module, meta.class entity.name.type.class, met meta.class meta.function-call variable.function",
+      "scope": "meta.function-call.static variable.other.class, meta.class entity.name.type.class, met meta.class meta.function-call variable.function",
       "settings": {
+        "foreground": "#A6E22E"
+      }
+    },
+    {
+      "name": "Class extends module",
+      "scope": "meta.class entity.name.type.module",
+      "settings": {
+        "fontStyle": "",
         "foreground": "#A6E22E"
       }
     },
@@ -1225,11 +1233,18 @@
       }
     },
     {
-      "name": "JS/TS: Annotation field definition",
+      "name": "JS/TS: Class field declaration - TBD",
       "scope": "meta.class meta.field.declaration meta.definition.property variable.object.property",
       "settings": {
         "fontStyle": "",
-        "foreground": "#FFFFFF"
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "JS/TS: Object member key",
+      "scope": "meta.object.member meta.object-literal.key",
+      "settings": {
+        "foreground": "#e6db74"
       }
     },
     {
@@ -1264,7 +1279,15 @@
     },
     {
       "name": "TS: type annotation",
-      "scope": "meta.type.parameters entity.name.type, meta.type.parameters entity.name.type.module, cast.expr entity.name.type, cast.expr entity.name.type.module, meta.var.expr cast.expr entity.name.type.module",
+      "scope": "meta.type.parameters entity.name.type, meta.type.parameters entity.name.type.module, cast.expr entity.name.type, cast.expr entity.name.type.module, meta.var.expr cast.expr entity.name.type.module, meta.interface entity.other.inherited-class",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#d1f7ff"
+      }
+    },
+    {
+      "name": "TS: interface + module",
+      "scope": "meta.block meta.interface entity.name.type.module",
       "settings": {
         "fontStyle": "italic",
         "foreground": "#d1f7ff"
@@ -1288,6 +1311,22 @@
     {
       "name": "TS: Return type name inside parameters",
       "scope": "meta.return.type.arrow meta.type.parameters entity.name.type.module, meta.return.type meta.type.parameters entity.name.type, meta.return.type meta.type.parameters entity.name.type.module",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ffe2ed"
+      }
+    },
+    {
+      "name": "TS: Return type in type declaration",
+      "scope": "meta.type.declaration meta.type.function.return entity.name.type, meta.type.annotation meta.type.function.return entity.name.type",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ffe2ed"
+      }
+    },
+    {
+      "name": "TS: Return type in object type declaration",
+      "scope": "meta.return.type meta.object.type meta.type.annotation entity.name.type",
       "settings": {
         "fontStyle": "italic",
         "foreground": "#ffe2ed"
@@ -1364,13 +1403,6 @@
       "scope": "meta.field.declaration meta.type.annotation keyword.operator.type.annotation",
       "settings": {
         "foreground": "#AE81FF"
-      }
-    },
-    {
-      "name": "JS/TS: Object member key",
-      "scope": "meta.object.member meta.object-literal.key",
-      "settings": {
-        "foreground": "#E6DB74"
       }
     },
     {
@@ -1781,7 +1813,6 @@
       "name": "Invalid",
       "scope": "invalid",
       "settings": {
-        "background": "#F92672",
         "fontStyle": "",
         "foreground": "#F8F8F0"
       }
@@ -1790,7 +1821,6 @@
       "name": "Invalid deprecated",
       "scope": "invalid.deprecated",
       "settings": {
-        "background": "#AE81FF",
         "foreground": "#F8F8F0"
       }
     },
