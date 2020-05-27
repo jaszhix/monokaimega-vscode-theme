@@ -52,7 +52,7 @@
     "sideBar.border": "#282828",
     "sideBarTitle.foreground": "#DCDCDB",
     "scrollbarSlider.activeBackground": "#434343",
-    "scrollbarSlider.background": "#424242",
+    "scrollbarSlider.background": "#42424285",
     "scrollbarSlider.hoverBackground": "#444444",
     "scrollbar.shadow": "#1d1d1d",
     "dropdown.listBackground": "#262626",

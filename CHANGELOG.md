@@ -1,5 +1,13 @@
 # Change Log
 
+## 4.0.2
+
+- Added transparency to the scrollbar.
+
+## 4.0.1
+
+- TS: Fixed incorrect return type coloring in some cases.
+
 ## 4.0.0
 
 - Updated theme support for these languages to improve readability and consistency:
