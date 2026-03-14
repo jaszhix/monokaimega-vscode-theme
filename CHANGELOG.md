@@ -1,5 +1,11 @@
 # Change Log
 
+## 4.0.3
+
+- Add Rust syntax highlighting support
+- PHP: Add missing variable token rule (variable.other.php, support.class.php)
+- Fix .vscode/launch.json deprecated workspaceRoot reference
+
 ## 4.0.2
 
 - Added transparency to the scrollbar.

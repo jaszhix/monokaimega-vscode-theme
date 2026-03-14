@@ -2762,6 +2762,27 @@
       }
     },
     {
+      "name": "Rust: Namespace path",
+      "scope": "entity.name.namespace.rust",
+      "settings": {
+        "foreground": "#b4f2de"
+      }
+    },
+    {
+      "name": "Rust: Function call",
+      "scope": "meta.function.call.rust entity.name.function.rust",
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Rust: Angle brackets",
+      "scope": "punctuation.brackets.angle.rust",
+      "settings": {
+        "foreground": "#F92672"
+      }
+    },
+    {
       "name": "GitGutter deleted",
       "scope": "markup.deleted.git_gutter",
       "settings": {
