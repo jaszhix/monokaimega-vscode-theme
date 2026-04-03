@@ -1155,7 +1155,7 @@
     },
     {
       "name": "JS/TS: class constructor keyword",
-      "scope": "source meta.class meta.method.declaration storage.type",
+      "scope": "source meta.class meta.method.declaration > storage.type",
       "settings": {
         "fontStyle": "",
         "foreground": "#A6E22E"

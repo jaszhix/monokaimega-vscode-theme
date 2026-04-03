@@ -1,5 +1,13 @@
 # Change Log
 
+## 4.0.5
+
+- Fixed variable expression coloring inside classes in TS files
+
+## 4.0.4
+
+- Added MIT license
+
 ## 4.0.3
 
 - Add Rust syntax highlighting support
